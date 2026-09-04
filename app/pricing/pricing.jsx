@@ -2,7 +2,7 @@
 import { useState, useEffect, useCallback } from "react";
 
 // ─── API helper (same pattern as main app) ──────────────────────
-const API = "http://localhost:8000";
+const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 
 async function api(path, opts = {}) {
   const token =

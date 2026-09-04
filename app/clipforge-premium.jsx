@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect, useRef, useCallback } from "react";
 
-const API = "http://localhost:8000";
+const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 
 async function api(path, opts = {}) {
   const token = typeof window !== "undefined" ? localStorage.getItem("cf_token") : null;
