@@ -148,7 +148,7 @@ function AuthScreen({ onLogin }) {
   };
   return (
     <div className="app"><style>{CSS}</style><div className="auth-wrap"><div className="auth-card fade">
-      <div style={{display:"flex",alignItems:"center",gap:10,justifyContent:"center",marginBottom:28}}><div className="logo-m">C</div><div className="logo-t">Clip<em>Forge</em></div></div>
+      <div style={{display:"flex",alignItems:"center",gap:10,justifyContent:"center",marginBottom:28}}><div className="logo-m">C</div><div className="logo-t">Clip<em>Dunk</em></div></div>
       <div className="auth-title">{mode === "login" ? "Welcome back" : "Create your account"}</div>
       <div className="auth-sub">{mode === "login" ? "Log in to generate AI videos" : "Start creating AI videos for free"}</div>
       {error && <div className="auth-err">{error}</div>}
@@ -161,7 +161,7 @@ function AuthScreen({ onLogin }) {
   );
 }
 
-export default function ClipForge() {
+export default function ClipDunk() {
   const [authed, setAuthed] = useState(false); const [user, setUser] = useState(null); const [loading, setLoading] = useState(true);
   const [step, setStep] = useState(0); const [fmt, setFmt] = useState(null);
   const [topic, setTopic] = useState(""); const [script, setScript] = useState(""); const [useScript, setUseScript] = useState(false);
@@ -207,7 +207,7 @@ export default function ClipForge() {
   return (
     <div className="app"><style>{CSS}</style>
       <header className="hdr">
-        <div className="logo" onClick={reset}><div className="logo-m">C</div><div className="logo-t">Clip<em>Forge</em></div></div>
+        <div className="logo" onClick={reset}><div className="logo-m">C</div><div className="logo-t">Clip<em>Dunk</em></div></div>
         <div className="hdr-r">
           {user && <span className="plan-badge">{user.plan}</span>}
           <div className="cr-badge">Credits: <span className="cr-n">{user?.credits_balance ?? 0}</span></div>

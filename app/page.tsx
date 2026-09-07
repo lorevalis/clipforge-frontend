@@ -1,5 +1,5 @@
-import ClipForge from './clipforge-premium';
+import ClipDunk from './ClipDunk-premium';
 
 export default function Home() {
-  return <ClipForge />;
+  return <ClipDunk />;
 }

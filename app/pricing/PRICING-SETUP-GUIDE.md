@@ -1,4 +1,4 @@
-# ClipForge Pricing Page — Setup Guide
+# ClipDunk Pricing Page — Setup Guide
 
 You need to do 3 small things. Total time: about 2 minutes.
 
@@ -9,18 +9,18 @@ You need to do 3 small things. Total time: about 2 minutes.
 Inside your frontend project, create this folder structure:
 
 ```
-clipforge-frontend/
+ClipDunk-frontend/
   src/
     app/
       page.js              ← (already exists — your main app)
-      clipforge-premium.jsx ← (already exists — your main app component)
+      ClipDunk-premium.jsx ← (already exists — your main app component)
       pricing/              ← CREATE THIS FOLDER
         page.js             ← PUT the "page.js" file here
         pricing.jsx         ← PUT the "pricing.jsx" file here
 ```
 
 **How to do it:**
-1. Open your `clipforge-frontend` folder in VS Code
+1. Open your `ClipDunk-frontend` folder in VS Code
 2. In the left sidebar, right-click on the `src/app` folder
 3. Click "New Folder" → type `pricing` → press Enter
 4. Download the two files I gave you (`pricing.jsx` and `page.js`)
@@ -30,7 +30,7 @@ clipforge-frontend/
 
 ## Step 2: Add a "Pricing" button to your main app header
 
-Open `src/app/clipforge-premium.jsx` and find this line (around line 211-214):
+Open `src/app/ClipDunk-premium.jsx` and find this line (around line 211-214):
 
 ```jsx
 <div className="hdr-r">
@@ -57,8 +57,8 @@ Save the file.
 
 ## Step 3: Test it
 
-1. Make sure your backend is running (`docker compose up` in the clipforge folder)
-2. Make sure your frontend is running (`npm run dev` in the clipforge-frontend folder)
+1. Make sure your backend is running (`docker compose up` in the ClipDunk folder)
+2. Make sure your frontend is running (`npm run dev` in the ClipDunk-frontend folder)
 3. Open your browser and go to: **http://localhost:3000/pricing**
 
 You should see the pricing page with your plans and credit packs!

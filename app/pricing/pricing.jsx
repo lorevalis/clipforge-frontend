@@ -361,7 +361,7 @@ export default function PricingPage() {
         key: order.key_id,
         amount: order.amount,
         currency: order.currency,
-        name: "ClipForge",
+        name: "ClipDunk",
         description: `${order.credits} Video Credits`,
         order_id: order.order_id,
         prefill: {
@@ -457,7 +457,7 @@ export default function PricingPage() {
       const options = {
         key: sub.key_id,
         subscription_id: sub.subscription_id,
-        name: "ClipForge",
+        name: "ClipDunk",
         description: `${sub.plan_name} Plan — Monthly`,
         theme: { color: "#FF6B35" },
         handler: async function (response) {
@@ -526,7 +526,7 @@ export default function PricingPage() {
         <a href="/" className="pr-logo">
           <div className="pr-logo-m">C</div>
           <div className="pr-logo-t">
-            Clip<em>Forge</em>
+            Clip<em>Dunk</em>
           </div>
         </a>
         <div className="pr-hdr-r">

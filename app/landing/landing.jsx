@@ -165,7 +165,7 @@ const FEATURES = [
   { icon: "📐", name: "Any aspect ratio", desc: "9:16 for Reels and TikTok, 16:9 for YouTube, 1:1 for Instagram. One click to switch." },
   { icon: "💬", name: "Auto captions", desc: "Animated subtitles synced to the voiceover, styled to match the format you chose." },
   { icon: "🎵", name: "Background music", desc: "Royalty-free music auto-selected to match the mood and pacing of your video." },
-  { icon: "📦", name: "Bulk generation", desc: "Queue up multiple videos at once. Let ClipForge work while you focus on publishing." },
+  { icon: "📦", name: "Bulk generation", desc: "Queue up multiple videos at once. Let ClipDunk work while you focus on publishing." },
   { icon: "🔗", name: "API access", desc: "Integrate video generation directly into your workflow with our REST API." },
 ];
 
@@ -230,7 +230,7 @@ export default function LandingPage() {
         <a href="/" className="ln-logo">
           <div className="ln-mark">C</div>
           <div className="ln-name">
-            Clip<em>Forge</em>
+            Clip<em>Dunk</em>
           </div>
         </a>
         <div className="ln-links">
@@ -255,7 +255,7 @@ export default function LandingPage() {
         </h1>
 
         <p className="lh-sub">
-          ClipForge turns any idea into a publish-ready video — script, voiceover,
+          ClipDunk turns any idea into a publish-ready video — script, voiceover,
           visuals, captions, and music. Pick a format, describe your topic,
           and download in minutes.
         </p>
@@ -276,7 +276,7 @@ export default function LandingPage() {
             <div className="lh-demo-dot" style={{ background: "#E5AC00" }} />
             <div className="lh-demo-dot" style={{ background: "#34D399" }} />
             <span style={{ fontSize: 12, color: "var(--t3)", marginLeft: 8 }}>
-              ClipForge
+              ClipDunk
             </span>
           </div>
           <div className="lh-demo-content">
@@ -350,7 +350,7 @@ export default function LandingPage() {
           </h2>
           <p className="lsec-sub">
             No editing software, no timeline, no exports. Describe what you want
-            and ClipForge handles the rest.
+            and ClipDunk handles the rest.
           </p>
         </div>
         <div className="lw-grid fade-up">
@@ -432,7 +432,7 @@ export default function LandingPage() {
             Everything happens <em>automatically</em>
           </h2>
           <p className="lsec-sub">
-            You bring the idea. ClipForge brings the script, voice, images,
+            You bring the idea. ClipDunk brings the script, voice, images,
             captions, music, and final render.
           </p>
         </div>
@@ -517,13 +517,13 @@ export default function LandingPage() {
       {/* ── Footer ── */}
       <footer className="lft">
         <div className="lft-copy">
-          © 2026 ClipForge. All rights reserved.
+          © 2026 ClipDunk. All rights reserved.
         </div>
         <div className="lft-links">
           <a href="/pricing" className="lft-link">Pricing</a>
           <a href="#" className="lft-link">Terms</a>
           <a href="#" className="lft-link">Privacy</a>
-          <a href="mailto:support@clipforge.ai" className="lft-link">Contact</a>
+          <a href="mailto:support@ClipDunk.ai" className="lft-link">Contact</a>
         </div>
       </footer>
     </div>
